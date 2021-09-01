@@ -1,0 +1,167 @@
+.waved {
+    position: absolute;
+    top: -34%;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.img {
+    background-image: url(../formpage/public/assets/undraw_profile_pic_ic5t.svg);
+    background-size: cover;
+    margin: 40px 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.box {
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list-group {
+    display: flex;
+    width: 300px;
+}
+
+.list-group>a {
+    margin: 10px;
+    height: 40px;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 3%;
+}
+
+#email {
+    font-weight: 500;
+    color: rgba(10, 7, 7, 0.781);
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+input, button {
+    width: 100%;
+}
+
+.btn-success {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    top: 12%;
+    right: 5%;
+    background-color: #685EFA;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.btn-success:hover{
+    background-color: #ccc9f5;
+    box-shadow: 4px 4px 4px #ccc9f5;
+    color: rgb(0, 0, 0);
+}
+#logout:hover{
+    background-color: #ccc9f5;
+    color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px #ccc9f5;
+}
+#loader{
+    margin: 100px 500px;
+}
+#logout {
+    position: absolute;
+    top: 01%;
+    right: 5%;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #685EFA;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: rgba(230, 234, 235, 0.822) solid !important;
+}
+
+input:focus {
+    border: none;
+}
+
+.allcard {
+    border: 2px rgba(0, 0, 0, 0) solid;
+    width: 90%;
+    flex-wrap: wrap;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.allcard>.card {
+    margin: 20px 10px;
+}
+
+.butns {
+    display: flex;
+    justify-content: space-evenly;
+}
+.butns>.btn:hover{
+    background-color: #ccc9f5;
+    color: black;
+}
+.order {
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: solid 2px gray;
+    background-color: #685EFA;
+    color: white;
+}
+
+h2, p {
+    color: rgb(0, 0, 0);
+    margin: 10px 0%;
+}
+
+button {
+    background-color: #685EFA;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #685EFA;
+    margin-top: 5%;
+}
+
+input:focus {
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #685EFA;
+}
+
+.btn-primary {
+    background-color: #685EFA;
+    border: none;
+}
+.img>img{
+    width: 700px;
+    height: 400px;
+}

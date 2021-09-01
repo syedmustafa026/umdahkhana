@@ -1,0 +1,57 @@
+@media only screen and (max-width:1336px) {
+    .logo>img {
+    width: 200px;
+    height: 60px;
+    margin-left: 150px;
+}}
+
+@media only screen and (max-width:1024px) {
+    .logo>img {
+        width: 200px;
+        height: 60px;
+        margin-left: 150px;
+    }
+    .navbar-brand {
+        padding-top: 0%;
+    }
+    .insta, .facebook {
+        width: 150px;
+        height: 150px;
+        margin: 2% 2% 0% 2%;
+    }
+    .card {
+        min-width: 220px;
+        min-height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width:786px) {
+    .logo>img {
+        width: 200px;
+        height: 60px;
+        margin-left: 150px;
+    }
+    .w-100 {
+        width: 100%!important;
+        margin-top: 70px;
+    }
+    .insta, .facebook {
+        width: 150px;
+        height: 150px;
+        margin: 2% 2% 0% 2%;
+    }
+    .card {
+        min-width: 220px;
+        min-height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width:490px) {
+    .logo>img {
+        width: 180px;
+        height: 60px;
+        margin-left: 50px;
+    }
+}

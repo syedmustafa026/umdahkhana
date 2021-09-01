@@ -1,0 +1,25 @@
+@media only screen and (max-width:400px){
+    .logo>img {
+        width: 140px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    .blogcard >iframe{
+        min-width: 340px;
+        height: 800px;
+    }
+    .w-100 {
+        width: 100%!important;
+        margin-top: 70px;
+    }
+}
+
+
+@media only screen and (max-width:350px){
+    .logo>img {
+        width: 120px;
+        height: 40px;
+        margin-left: 0px;
+    }
+
+}

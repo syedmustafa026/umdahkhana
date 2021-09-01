@@ -1,0 +1,144 @@
+.home {
+    width: 330px;
+    height: 450px;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(88, 85, 81);
+}
+
+.waved {
+    position: absolute;
+    top: -34%;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.img {
+    background-image: url(../formpage/public/assets/undraw_profile_pic_ic5t.svg);
+    background-size: cover;
+    margin: 40px 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.box {
+    margin-top: 2%;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+.menu{
+    border: 2px black solid;
+}
+.list-group {
+    margin-top: 2%;
+    margin-left: 2%;
+    min-width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  
+}
+.order{
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: solid 2px gray;
+    background-color: #851caf; 
+    color: white;
+}
+.allcard{
+    border: 2px rgba(0, 0, 0, 0) solid;
+    width: 90%;
+    flex-wrap: wrap;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.allcard > .card{
+    margin: 20px 10px;
+}
+.butns{
+display: flex;
+justify-content: space-evenly;
+
+}
+#name {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 3%;
+}
+
+#email {
+    font-weight: 500;
+    color: rgba(10, 7, 7, 0.781);
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+input, button {
+    width: 100%;
+}
+
+#loader{
+    margin: 100px 500px;
+}
+#logout {
+    position: absolute;
+    bottom: 01%;
+    right: 5%;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #bf9dcc;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+input:focus {
+    border: none;
+}
+
+h2, p {
+    color: rgb(0, 0, 0)
+}
+
+button {
+    background-color: #851caf;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #851caf;
+    margin-top: 5%;
+}
+
+input:focus {
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #851caf;
+}
+
+.btn-primary {
+    background-color: #851caf;
+    border: none;
+}
