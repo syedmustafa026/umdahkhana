@@ -1,9 +1,10 @@
 @media only screen and (max-width:1336px) {
     .logo>img {
-    width: 200px;
-    height: 60px;
-    margin-left: 150px;
-}}
+        width: 200px;
+        height: 60px;
+        margin-left: 150px;
+    }
+}
 
 @media only screen and (max-width:1024px) {
     .logo>img {
@@ -23,7 +24,35 @@
         min-width: 220px;
         min-height: 200px;
     }
-    
+}
+
+@media only screen and (max-width:1024px) {
+    .collapse {
+        margin-left: 16%;
+        background: rgba(0, 0, 0, 0.721);
+        border-radius: 30px;
+        margin: 0px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .nav-item>.order {
+        width: 170px !important;
+        height: 50px !important;
+        background-color: #f1ae31;
+        margin-left: 0px !important;
+        padding: 8px;
+        margin-top: 0rem;
+        color: black !important;
+        text-shadow: none;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
 }
 
 @media only screen and (max-width:786px) {
@@ -32,6 +61,39 @@
         height: 60px;
         margin-left: 150px;
     }
+    .collapse {
+        margin-left: 16%;
+        background: rgba(0, 0, 0, 0.721);
+        border-radius: 30px;
+        margin: 0px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .nav-item>.order {
+        width: 170px !important;
+        height: 50px !important;
+        background-color: #f1ae31;
+        color: black !important;
+        margin-left: 0px !important;
+        margin-top: 0rem;
+        text-shadow: none;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    .order:hover {
+        background-color: #17161B;
+        color: #f1ae31 !important;
+        text-shadow: none;
+        border: 3px double #f1ae31;
+        text-decoration: underline #000000;
+    }
+    
     .w-100 {
         width: 100%!important;
         margin-top: 70px;
@@ -45,7 +107,6 @@
         min-width: 220px;
         min-height: 200px;
     }
-    
 }
 
 @media only screen and (max-width:490px) {
