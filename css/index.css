@@ -76,8 +76,8 @@ a:visited{
     text-shadow: none;
     text-transform: capitalize;
     text-decoration: none;
+    outline: none;
 }
-
 .nav-link {
     text-decoration: none;
     color: #f1ae31;
@@ -134,15 +134,26 @@ ul>li>a {
 
 /* modal starts */
 .modal-content{
-    background: #17161B;
+    background: #17161bab;
+}
+.modal-title{
+    font-size: 24px ;
+    background-color: #17161B;
+    color: white;
+}
+.card-title{
+    font-size: 24px !important;
+    color: white;
 }
 .modal-body{
     display: flex; 
     background: #17161B;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .card-text{
-    margin-bottom: 7%;
+    margin-bottom: 9%;
 }
 .modal-body>.cards{
     background-color: rgb(0, 0, 0);
