@@ -295,6 +295,9 @@ footer{
     padding-top: 20px;
 background-color: #17161B;
 }
-
+.footerhead{
+    color: white;
+    margin-top: 2%;
+}
 
 /* ****************************First Page ENDS************************** */
