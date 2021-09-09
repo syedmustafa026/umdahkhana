@@ -96,7 +96,7 @@ a:visited{
     background-color: #17161B;
     color: #f1ae31 !important;
     text-shadow: none;
-    border: 3px double #f1ae31;
+    border: 1px double #f1ae31;
     text-decoration: underline #000000;
 }
 

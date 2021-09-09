@@ -38,7 +38,7 @@ inputs.forEach(input => {
 showPassword = () => {
     if (password.type === "password") {
         password.type = "text"
-        eye.style.color = "#6f6ac8"
+        eye.style.color = "#f1ae31"
     }
     else {
         password.type = "password"

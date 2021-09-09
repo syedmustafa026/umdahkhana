@@ -19,3 +19,14 @@ dailyMenu=() =>{
 </div>
 </div>`
 }
+
+facebook =()=>{
+  window.location.href ="https://www.facebook.com/umdahkhanay"
+}
+
+whatsapp =()=>{
+  window.location.href ="https://wa.me/923248241428"
+}
+instagram =()=>{
+  window.location.href ="https://www.instagram.com/umdahkhana"
+}

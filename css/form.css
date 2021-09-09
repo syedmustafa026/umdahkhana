@@ -3,36 +3,61 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: 'Poppins', sans-serif;
+@font-face {
+    font-family: font;
+    src: url(../fonts/Lora/static/Lora-Regular.ttf);
 }
 
-/* header starat  */
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Lora/static/Lora-Bold.ttf);
+}
+body {
+    font-family: font;
+    background-image: url(https://source.unsplash.com/1440x635/?food);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #f1ae31;
+}
+
+/* HEADER STARTS */
 
 .logo>img {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 190px;
-    height: 140px;
+    width: 180px;
+    height: 70px;
+    margin-left: 50px;
+    margin: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 70px;
+    background-color: #17161B;
+    z-index: 50;
+}
+
+.nvbars {
+    display: flex;
+    height: 70px;
+    z-index: 500;
+    width: 100%;
+    background-color: #0b0b14;
+    padding: 0%;
+    margin-bottom: 10% !important;
 }
 
 
-.wave {
-    position: absolute;
-    top: -24%;
-    left: -20%;
-    height: 100%;
-    z-index: -1;
-}
+/* front starat  */
+
+
 
 .container {
     width: 100vw;
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 7rem;
+    display: flex;
+    justify-content: space-around;
     padding: 0 2rem;
 }
 
@@ -52,20 +77,17 @@ body {
     text-align: center;
 }
 
-/* .img img{
-	width: 500px;
-} */
 
 form {
-    width: 360px;
-    margin-top: 30%;
+    border: 2px solid #fff;
+    width: 400px;
+    box-shadow: 5px 5px 5px rgb(83, 78, 48);
+    background-color: #fff;
+    padding: 25px 40px;
+    margin-top: 20% ;
+    border-radius: 20px;
 }
 
-.input-form {
-    width: 100%;
-    height: 500px;
-   
-}
 
 .login-content img {
     height: 100px;
@@ -73,10 +95,11 @@ form {
 
 .login-content h2 {
     margin: 15px 0;
-    color: #131127;
+    color: #000000;
     text-transform: uppercase;
-    font-size: 2.9rem;
-    text-decoration: #1b1a33 underline;
+    font-size:46px;
+    font-weight: bold;
+    text-decoration: #000000 underline;
 }
 
 .login-content .input-div {
@@ -85,7 +108,7 @@ form {
     grid-template-columns: 7% 93%;
     margin: 25px 0;
     padding: 5px 0;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 2px solid #f1ae31;
 }
 
 .login-content .input-div.one {
@@ -93,7 +116,7 @@ form {
 }
 
 .i {
-    color: #d9d9d9;
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +136,7 @@ form {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #999;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     transition: .3s;
 }
@@ -124,7 +147,7 @@ form {
     bottom: -2px;
     width: 0%;
     height: 2px;
-    background-color: #6C63FF;
+    background-color: #000000;
     transition: .4s;
 }
 
@@ -146,7 +169,7 @@ form {
 }
 
 .input-div.focus>.i>i {
-    color: #6C63FF;
+    color: #f1ae31;
 }
 
 .input-div>div>input {
@@ -176,7 +199,7 @@ a {
     display: block;
     text-align: right;
     text-decoration: none;
-    color: #999;
+    color: rgb(0, 0, 0);
     font-size: 0.9rem;
     transition: .3s;
 }
@@ -194,7 +217,7 @@ a {
 }
 
 a:hover {
-    color: #38d39f;
+    color: #f1ae31;
 }
 
 .btn {
@@ -204,7 +227,7 @@ a:hover {
     border-radius: 25px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #6f6ac8, #6C63FF, #6C63FF);
+    background-image: linear-gradient(to right, #f1ae31, #e9b759, #e4b256);
     background-size: 200%;
     font-size: 1.2rem;
     color: #fff;
@@ -226,9 +249,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    form {
-        width: 290px;
-    }
+   
     .login-content h2 {
         font-size: 2.4rem;
         margin: 8px 0;
@@ -239,46 +260,32 @@ a:hover {
 }
 
 @media screen and (max-width: 900px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
+   
     .img {
         display: none;
     }
     .wave {
         display: none;
     }
-    .waved {
-        display: block;
-        position: absolute;
-        top: -2%;
-        left: 0%;
-        height: 52.5%;
-        z-index: -1;
-    }
+  
     .login-content {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .container {
-        grid-template-columns: 1fr;
+    form {
+        width: 340px;
+        
     }
+    
     .img {
         display: none;
     }
     .wave {
         display: none;
     }
-    .waved {
-        display: block;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        height: 33%;
-        z-index: -1;
-    }
+  
     .login-content {
         justify-content: center;
     }
