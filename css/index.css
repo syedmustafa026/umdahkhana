@@ -188,10 +188,12 @@ ul>li>a {
 .profile>img {
     border-radius: 20px !important;
 }
-
+.social{
+    width: 100%;
+}
 .insta, .facebook {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 140px;
     margin: 2% 4% 0% 8%;
 }
 
