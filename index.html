@@ -25,70 +25,29 @@
 </head>
 
 <body>
-    <nav class=" fixed-top navbar navbar-expand-lg ">
-        <a class=" logo navbar-brand" href="#"><img src="images/pnglogo.png" alt="logo"></a>
-        <button style="border: none;" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="toggle-icon"><img width="50" class="toogler" height="50" data-target="#exampleModal" src="images/List-Icon.svg" alt="toggle"></span>
-        </button>
-        <div class="collapse navbar-collapse"  aria-labelledby="exampleModalLabel" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class=" current nav-link" href="#"><i class="fas fa-home"></i> Home <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-utensils"></i> Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-utensils"></i> Contact us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="far fa-address-card"></i> About us</a>
-                </li>
-                <li class="nav-item">
-                    <!-- Button trigger modal -->
-                    <a type="button" class="order nav-link" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-shopping-cart"></i> Pre-Order
-                    </a>
-                </li>
-            </ul>
+   <!-- header starts  -->
+   <nav class="navbarzz">
+    <div class="content">
+      <div class="logo">
+        <a href="#"><img src="images/pnglogo.png" alt=""></a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
-    </nav>
+        <li class="current"><a target="_blank"  href="index.html">Home</a></li>
+        <li><a target="_blank" href="pages/about.html">About us</a></li>
+        <li><a target="_blank" href="pages/menu.html">Menu</a></li>
 
-    <!-- pre-order Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Pre-Order Now</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="cards">
-                        <div class="card-body">
-                            <h2 class="card-title">Daily Menu</h2>
-                            <p class="card-text">Based on Daily Basis Meal, You can Pre-Order now .
-                            </p>
-                            <a href="pages/dailymenu.html" class="modal-btn">Show Menu <i class="fas fa-arrow-circle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="cards">
-                        <div class="card-body">
-                            <h2 class="card-title ">Weekly Menu</h2>
-                            <p class="card-text">Based on Weekly Basis Meal, You can Pre-Order now .
-                            </p>
-                            <a href="pages/weeklymenu.html" class="modal-btn">Show Menu <i class="fas fa-arrow-circle-right"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <li><a target="_blank" href="https://wa.me/923248241428">Pre-Ordering</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
-    <!-- header ends  -->
+  </nav>
+
+  <!-- header ends  -->
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -387,10 +346,10 @@
                     <h2 class=" footerhead title-font font-medium text-gray-600 tracking-widest text-md mb-3">Umdah-Web</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-#f1ae31-600 hover:text-red-800">About us</a>
+                            <a class="text-#f1ae31-600 hover:text-red-800" target="_blank" href="pages/about.html">About us</a>
                         </li>
                         <li>
-                            <a class="text-#f1ae31-600 hover:text-red-800">Contact us</a>
+                            <a href="https://wa.me/923248241428" class="text-#f1ae31-600 hover:text-red-800">Whatsapp</a>
                         </li>
                         <li>
                             <a class="text-#f1ae31-600 hover:text-red-800">Terms & conditions</a>
@@ -405,7 +364,7 @@
         <div class="bg-#17161B-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                 <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 Umdah khana —
-                    <a href="https://www.facebook.com/syedmustafa026" rel="mustafa" class="text-gray-600 ml-1"
+                    <a href="https://syedmustafa.netlify.app" rel="mustafa" class="text-gray-600 ml-1"
                         target="_blank">@Mustafa</a>
                 </p>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
