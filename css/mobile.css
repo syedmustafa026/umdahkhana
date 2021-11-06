@@ -12,6 +12,11 @@
         width: 100%!important;
         margin-top: 70px;
     }
+    .insta, .facebook {
+        width: 110px;
+        height: 110px;
+        margin: 0% 0% 0% 2%;
+    }
 }
 
 
