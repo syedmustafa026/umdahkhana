@@ -26,4 +26,8 @@ const body = document.querySelector("body");
     }
     window.onscroll = ()=>{
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 31c1a1f0c2557e664a6abf1803abdae3ac56e7b2
